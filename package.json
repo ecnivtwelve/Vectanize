@@ -1,0 +1,36 @@
+{
+  "name": "vectanize",
+  "version": "1.0.2",
+  "description": "Open Variants with ease.",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "keywords": [],
+  "author": "Vincent LINISE",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^18.2.4"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.9"
+  },
+  "build": {
+    "appId": "fr.ectw.vectanize",
+    "publisherName": "ecnivtwelve",
+    "win": {
+      "target": "nsis"
+    },
+    "fileAssociations": [
+      {
+        "ext": ["vsg"],
+        "name": "Vectanize Archive File",
+        "description": "Used to open Vectanize archives.",
+        "icon": "build/vsg.ico",
+        "role": "Viewer"
+      }
+    ]
+  }
+}

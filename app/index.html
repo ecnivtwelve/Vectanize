@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div id="preview">
+            <img id="previewImg"/>
+        </div>
+        <div id="customize">
+
+            <div class="group">
+                <div class="groupTitle">
+                    <p class="native">File info</p>
+                </div>
+                <div class="groupContent">
+                    <h3 id="fileName"></h3>
+                    <p class="native"><span id="fData"></span><span id="fSize"></span></p>
+                </div>
+            </div>
+
+            <div class="group">
+                <div class="groupTitle">
+                    <p class="native">Variants</p>
+                </div>
+                <div class="groupContent" id="vars">
+
+                </div>
+            </div>
+
+            <button class="export" onclick="exporta()">Exporter</button>
+
+        </div>
+
+        <script src="js/renderer.js"></script>
+    </body>
+</html>
