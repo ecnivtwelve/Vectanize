@@ -1,6 +1,9 @@
 # Vectanize
 Open Figma Variants as an configurable file.
 
+### Read this to understand how to export Figma Variants for Vectanize.
+[Figma Tutorial](https://github.com/ecnivtwelve/Vectanize/blob/main/HowToFigma.md)
+
 ## What is this ?
 In 2020, Figma introduced [Variants](https://www.figma.com/blog/bridging-design-and-code-with-variants/), a feature that allows components to have multiple states.
 However, it became really hard to export and find which version of the component you needed to use.
